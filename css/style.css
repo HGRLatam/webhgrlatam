@@ -1,0 +1,28 @@
+/** CSS de la pagina Inicio ***/
+
+
+/*** variables universales ***/
+
+:root{
+--background:darkslategray;
+--color:rgba(120, 74, 143);
+}
+
+
+/*** CABECERA ***/
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color:var(--color);
+}
+
+/*** MENU ***/
+.header__menu{
+    position: relative;
+    align-items: center;
+}
+.header__unorderedlist{
+background-color: var(--backgroundul);
+position: absolute;
+}
